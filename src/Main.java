@@ -73,7 +73,8 @@ public class Main {
             System.out.println("slowo: " + key + " ,dlugosc: " +valueIsLength.get(key));
         }
         //test
-
+        // Napisz metode ktora pozwala dodawac do mapy kolejne wyrazy. Na koncu ma
+        // wyswietlic ile razy jaki element byl dodany
         HashMap<Integer, String> mapFromMethod = new HashMap<>();
         String[] words = {"jeden", "dwa", "Trzy", "Cztery"};
 
