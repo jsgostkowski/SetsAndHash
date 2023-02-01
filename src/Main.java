@@ -72,7 +72,7 @@ public class Main {
         for(String key : valueIsLength.keySet()){
             System.out.println("slowo: " + key + " ,dlugosc: " +valueIsLength.get(key));
         }
-
+        //test
 
         HashMap<Integer, String> mapFromMethod = new HashMap<>();
         String[] words = {"jeden", "dwa", "Trzy", "Cztery"};
