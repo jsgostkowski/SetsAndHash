@@ -86,7 +86,15 @@ public class Main {
         }
 
         // Napisz program, ktory losuje liczby w duzym lotku bez powtorzen, zakres liczb 1-45
+        HashSet<Integer> numbers = new HashSet<>();
+        Random random = new Random();
 
+        while (numbers.size() < 6) {
+            int number = random.nextInt(45) + 1;
+            numbers.add(number);
+        }
+
+        System.out.println("Random numbers: " + numbers);
         // napisz metode ktora przyjmuje Mape<Integer, String>, zamien wartosci ktorych
         // klucze sa parzystych wartosci
         // na słowo "parzyste"
